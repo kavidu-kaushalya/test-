@@ -3,9 +3,7 @@ export default function handler(req, res) {
 
   res.setHeader("Content-Type", "image/svg+xml");
   res.status(200).send(`
-    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 554.5">
-  <defs>
-    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 554.5">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 554.5">
   <defs>
     <style>
       .cls-1 {
